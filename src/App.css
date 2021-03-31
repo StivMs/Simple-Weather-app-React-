@@ -1,0 +1,71 @@
+
+
+.App {
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.gradient-text {
+ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.form-horizontal{
+    background: #fff !important;
+    border-radius: 15px !important;
+    text-align: center !important;
+}
+.btn {
+  float: center;
+      font-size: 14px !important;
+      color: #fff  !important;
+      background: #51C8A6  !important;
+      border-radius: 30px  !important;
+      padding: 10px 25px  !important;
+      border: none  !important;
+      text-transform: capitalize  !important;
+      transition: all 0.5s ease 0s  !important;
+      padding: 10px 20px  !important;
+}
+
+.svgStyle {
+
+background-color: #51C8A6;
+border-top-left-radius: 24px !important;
+border-top-right-radius: 24px !important;}
+
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
